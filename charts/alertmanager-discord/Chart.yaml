@@ -1,0 +1,15 @@
+apiVersion: v2
+type: application
+name: alertmanager-discord
+description: Helm chart to deploy webhook integration for sending alert manager alerts on discord.
+home: https://github.com/atrox/helm-charts
+keywords:
+  - "alertmanager"
+  - "discord"
+
+version: 1.0.0
+appVersion: "1.0.0"
+
+maintainers:
+  - name: Atrox
+    email: hello@atrox.dev
