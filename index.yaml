@@ -19,4 +19,23 @@ entries:
     urls:
     - https://github.com/Atrox/helm-charts/releases/download/alertmanager-discord-1.1.0/alertmanager-discord-1.1.0.tgz
     version: 1.1.0
-generated: "2022-10-05T10:30:24.971661995Z"
+  shynet:
+  - apiVersion: v2
+    appVersion: v0.12.0
+    created: "2022-10-15T18:55:48.676750205Z"
+    description: Helm chart to shynet, a modern, privacy-friendly, and detailed web
+      analytics that works without cookies or JS.
+    digest: d64f86e7dee071c435f4bed071fe3601099f70d9ef2de718afd97c44b316c678
+    home: https://github.com/atrox/helm-charts
+    keywords:
+    - shynet
+    - analytics
+    maintainers:
+    - email: hello@atrox.dev
+      name: Atrox
+    name: shynet
+    type: application
+    urls:
+    - https://github.com/Atrox/helm-charts/releases/download/shynet-0.1.0/shynet-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-15T18:55:48.676755605Z"
