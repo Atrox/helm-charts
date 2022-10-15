@@ -1,0 +1,15 @@
+apiVersion: v2
+type: application
+name: shynet
+description: Helm chart to shynet, a modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+home: https://github.com/atrox/helm-charts
+keywords:
+  - "shynet"
+  - "analytics"
+
+version: 0.1.0
+appVersion: "v0.12.0"
+
+maintainers:
+  - name: Atrox
+    email: hello@atrox.dev
