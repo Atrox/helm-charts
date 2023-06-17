@@ -8,10 +8,10 @@ discordWebhookURL:
 replicaCount: 1
 
 image:
-  repository: benjojo/alertmanager-discord
+  repository: ghcr.io/atrox/alertmanager-discord
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  # tag: "latest"
 
 containerPort: 9094
 containerListenAddress: "0.0.0.0:9094"
