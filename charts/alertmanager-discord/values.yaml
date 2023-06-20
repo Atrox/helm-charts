@@ -6,6 +6,9 @@ config:
   # webhook url to send alerts to
   # discordWebhookURL: https://discordapp.com/api/webhooks/...
 
+  # optional secret name for env variables
+  existingSecret: ""
+
   env:
     # additional environment variables for the alertmanager-discord container
 
