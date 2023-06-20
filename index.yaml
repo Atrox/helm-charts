@@ -3,6 +3,24 @@ entries:
   alertmanager-discord:
   - apiVersion: v2
     appVersion: v1.0.0
+    created: "2023-06-20T20:42:16.124366614Z"
+    description: Helm chart to deploy webhook integration for sending alert manager
+      alerts on discord.
+    digest: c2872012698dc20a5bbd52150fa0e31d79785ae2c31fabf92640a08e6a46e26c
+    home: https://github.com/atrox/helm-charts
+    keywords:
+    - alertmanager
+    - discord
+    maintainers:
+    - email: hello@atrox.dev
+      name: Atrox
+    name: alertmanager-discord
+    type: application
+    urls:
+    - https://github.com/Atrox/helm-charts/releases/download/alertmanager-discord-2.0.1/alertmanager-discord-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: v1.0.0
     created: "2023-06-17T21:27:51.482004625Z"
     description: Helm chart to deploy webhook integration for sending alert manager
       alerts on discord.
@@ -58,6 +76,24 @@ entries:
   shynet:
   - apiVersion: v2
     appVersion: v0.12.0
+    created: "2023-06-20T20:42:16.283989362Z"
+    description: Helm chart to shynet, a modern, privacy-friendly, and detailed web
+      analytics that works without cookies or JS.
+    digest: 9372e0a8cbcc8cb9d5a561efc80b8f0eba5104402018d5416afdc7bf1305b9fe
+    home: https://github.com/atrox/helm-charts
+    keywords:
+    - shynet
+    - analytics
+    maintainers:
+    - email: hello@atrox.dev
+      name: Atrox
+    name: shynet
+    type: application
+    urls:
+    - https://github.com/Atrox/helm-charts/releases/download/shynet-0.1.1/shynet-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.12.0
     created: "2022-10-15T18:55:48.676750205Z"
     description: Helm chart to shynet, a modern, privacy-friendly, and detailed web
       analytics that works without cookies or JS.
@@ -74,4 +110,4 @@ entries:
     urls:
     - https://github.com/Atrox/helm-charts/releases/download/shynet-0.1.0/shynet-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-17T21:27:51.482017225Z"
+generated: "2023-06-20T20:42:16.284007262Z"
