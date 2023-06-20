@@ -2,8 +2,12 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-# required webhook url:
-discordWebhookURL:
+config:
+  # webhook url to send alerts to
+  # discordWebhookURL: https://discordapp.com/api/webhooks/...
+
+  env:
+    # additional environment variables for the alertmanager-discord container
 
 replicaCount: 1
 
