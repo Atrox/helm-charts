@@ -3,6 +3,24 @@ entries:
   alertmanager-discord:
   - apiVersion: v2
     appVersion: v1.0.0
+    created: "2023-06-20T20:59:05.181374315Z"
+    description: Helm chart to deploy webhook integration for sending alert manager
+      alerts on discord.
+    digest: 87d17734b03ede72f7568480f307ea67d2df04b7f5b584a6d2554839fa529c1b
+    home: https://github.com/atrox/helm-charts
+    keywords:
+    - alertmanager
+    - discord
+    maintainers:
+    - email: hello@atrox.dev
+      name: Atrox
+    name: alertmanager-discord
+    type: application
+    urls:
+    - https://github.com/Atrox/helm-charts/releases/download/alertmanager-discord-3.0.0/alertmanager-discord-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: v1.0.0
     created: "2023-06-20T20:42:16.124366614Z"
     description: Helm chart to deploy webhook integration for sending alert manager
       alerts on discord.
@@ -110,4 +128,4 @@ entries:
     urls:
     - https://github.com/Atrox/helm-charts/releases/download/shynet-0.1.0/shynet-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-20T20:42:16.284007262Z"
+generated: "2023-06-20T20:59:05.181396717Z"
